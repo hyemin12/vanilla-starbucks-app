@@ -55,7 +55,6 @@ Visual
 /*----------------------------
 notice
 ------------------------------ */
-.notice {}
 
 /* --- notice-line --- */
 .notice .notice-line {
@@ -360,9 +359,6 @@ season-product
 }
 .season-product .text-group .discription {
   margin-bottom: 15px;
-}
-.season-product .text-group .more {
-
 }
 
 
