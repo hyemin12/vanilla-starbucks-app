@@ -8,13 +8,11 @@ Visual
 }
 .visual .inner {
   height: 646px;
-
 }
 .visual .title {
   position: absolute;
   top: 88px;
   left: -10px;
-
 }
 .visual .title .btn {
   position: absolute;
@@ -50,7 +48,6 @@ Visual
 .visual .fade-in {
   opacity: 0;
 }
-
 
 /*----------------------------
 notice
@@ -98,6 +95,7 @@ notice
 .notice .notice-line .inner__left .swiper-container {
   height: 62px;
   flex-grow: 1;
+  overflow: hidden;
 }
 .notice .notice-line .inner__left .swiper-slide {
   height: 62px;
@@ -148,7 +146,7 @@ notice
   height: 693px;
   background-color: #f6f5ef;
   position: relative;
-  transition: height .4s;
+  transition: height 0.4s;
   overflow: hidden;
 }
 .notice .promotion.hide {
@@ -165,7 +163,7 @@ notice
   margin-left: calc((819px * 3 + 20px) / -2);
 }
 .notice .promotion .swiper-slide {
-  opacity: .5;
+  opacity: 0.5;
   transition: opacity 1s;
   position: relative;
 }
@@ -216,7 +214,7 @@ notice
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: .4s;
+  transition: 0.4s;
 }
 .notice .promotion .swiper-prev {
   left: 50%;
@@ -231,7 +229,6 @@ notice
   background-color: #333;
   color: #fff;
 }
-
 
 /*----------------------------
 rewards
@@ -275,7 +272,7 @@ rewards
 }
 .rewards .btn-group .btn.gift {
   margin-top: 10px;
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 /*----------------------------
@@ -284,7 +281,7 @@ youtube video
 .youtube {
   position: relative;
   height: 700px;
-  overflow:hidden;
+  overflow: hidden;
   background-color: #333;
 }
 .youtube .youtube__area {
@@ -298,7 +295,7 @@ youtube video
 }
 .youtube .youtube__area::before {
   /* youtube 컨텐츠 가상요소 추가 */
-  content:"";
+  content: "";
   display: block;
   width: 100%;
   height: 0;
@@ -308,7 +305,7 @@ youtube video
   width: 100%;
   height: 100%;
   background-image: url("../images/video_cover_pattern.png");
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   left: 0;
@@ -333,7 +330,6 @@ youtube video
   top: 350px;
   left: 150px;
 }
-
 
 /*----------------------------
 season-product
@@ -361,13 +357,11 @@ season-product
   margin-bottom: 15px;
 }
 
-
 /*----------------------------
 reserve-coffee
 ------------------------------ */
 .reserve-coffee {
   background-image: url("../images/reserve_bg.jpg");
-
 }
 .reserve-coffee .inner {
   height: 400px;
@@ -388,7 +382,6 @@ reserve-coffee
   right: 0;
 }
 
-
 /*----------------------------
 pick-your-favorite
 ------------------------------ */
@@ -406,7 +399,7 @@ pick-your-favorite
   width: 362px;
   margin-left: 100px;
   display: flex;
-  flex-wrap : wrap;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
 .pick-your-favorite .textgroup .title {
@@ -415,7 +408,6 @@ pick-your-favorite
 .pick-your-favorite .textgroup .discription {
   margin-bottom: 40px;
 }
-
 
 /*----------------------------
 reserve-store
@@ -450,13 +442,13 @@ reserve-store
   transform: rotateY(0deg);
 }
 .reserve-store .medal:hover .front {
-  transform: rotateY(180deg)
+  transform: rotateY(180deg);
 }
 .reserve-store .medal .back {
   transform: rotateY(-180deg);
 }
 .reserve-store .medal:hover .back {
-  transform: rotateY(0deg)
+  transform: rotateY(0deg);
 }
 .reserve-store .medal .back .btn {
   position: absolute;
@@ -487,7 +479,7 @@ find-store
 }
 .find-store .picture {
   border-radius: 50%;
-  box-shadow: 2px 2px 8px rgba(0,0,0,.5);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   position: absolute;
 }
 .find-store .picture1 {
@@ -507,9 +499,8 @@ find-store
   margin-bottom: 20px;
 }
 .find-store .textgroup .discription {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-
 
 /*----------------------------
 awrads
@@ -532,7 +523,7 @@ awrads
   border-radius: 50%;
   outline: none;
   color: #fff;
-  opacity: .3;
+  opacity: 0.3;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -543,7 +534,7 @@ awrads
   margin: auto;
 }
 .awards .swiper-prev {
-  left: -100px
+  left: -100px;
 }
 .awards .swiper-next {
   right: -100px;
